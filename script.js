@@ -9,7 +9,7 @@ function showWhisper(msg) {
 }
 
 document.addEventListener('mousemove', function(e) {
-  if (e.clientY < 50) showWhisper("WAIT— don't go yet haha ♡");
+  if (e.clientY < 50) showWhisper("Please leave.");
 });
 
 setTimeout(function(){
