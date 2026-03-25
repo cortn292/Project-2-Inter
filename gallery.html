@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>gallery</title>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600&family=Nunito:wght@400;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="gallery.css">
+<script src="gallery.js"></script>
+</head>
+<body id="bod">
+<div id="whisper"></div>
+ 
+<div class="nav">
+  <a href="index.html">← home</a>
+  <span style="color:#c77daa">/ gallery</span>
+</div>
+ 
+<h1>my gallery ♡</h1>
+<p class="subtitle">photos i love!! hover over them to see the title ˙˚ʚ</p>
+<div class="control-bar">
+  <div class="control-label">
+    <span>warmth level</span>
+    <span id="warmthVal">50%</span>
+  </div>
+  <input type="range" id="warmth" min="0" max="100" value="50"
+    oninput="setWarmth(this.value)">
+</div>
+<div class="gallery">
+ 
+  <div class="gallery-item" onclick="location.href='journal.html'">
+    <img src="https://i.pinimg.com/736x/84/13/79/8413797004dadab7f54d18a74d6916e5.jpg" alt="BanaCat">
+
+    <div class="img-overlay">
+      <div class="overlay-label">Kity</div>
+      <div class="overlay-sub">→ journal</div>
+    </div>
+
+  </div>
+
+<div class="gallery-item" onclick="location.href='about.html'">
+    <img src="https://i.pinimg.com/736x/69/51/3c/69513c1344ed2c9bc04f18dd73e2dfb9.jpg"
+    alt="Gamer Cat">
+    <div class="img-overlay">
+      <div class="overlay-label">Kity</div>
+      <div class="overlay-sub">→ about</div>
+    </div>
+  </div>
