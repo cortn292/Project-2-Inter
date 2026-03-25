@@ -29,7 +29,7 @@
 <div class="gallery">
  
   <div class="gallery-item" onclick="location.href='journal.html'">
-    <img src="https://i.pinimg.com/736x/84/13/79/8413797004dadab7f54d18a74d6916e5.jpg" alt="BanaCat">
+    <img src="https://i.pinimg.com/736x/84/13/79/8413797004dadab7f54d18a74d6916e5.jpg" alt="Banana Cat">
 
     <div class="img-overlay">
       <div class="overlay-label">Kity</div>
@@ -46,3 +46,41 @@
       <div class="overlay-sub">→ about</div>
     </div>
   </div>
+
+   <div class="gallery-item" onclick="location.href='contact.html'">
+    <img src="https://i.pinimg.com/736x/79/29/04/79290407414b1d1398b3dd401e369cea.jpg"
+    alt="Relaxation Cat">
+    <div class="img-overlay">
+      <div class="overlay-label">a letter ♡</div>
+      <div class="overlay-sub">→ my contact</div>
+    </div>
+  </div>
+
+  <div class="gallery-item" id="brokenImg" style="display:none" onclick="document.getElementById('wrongDetails').open=true">
+    <img src="https://i.pinimg.com/736x/23/fc/9d/23fc9dfc571b0c807e0d218f7a3572a3.jpg"
+    alt="eyes">
+    <div class="img-overlay">
+      <div class="overlay-label" style="font-family:'Share Tech Mono',monospace;font-size:0.7rem;color:#ff4466">this wasn't uploaded</div>
+    </div>
+  </div>
+ 
+</div>
+
+<details>
+  <summary>about these photos!</summary>
+  <div class="details-body">
+    I just love cats! ♡
+  </div>
+</details>
+
+<details id="wrongDetails">
+  <summary>Why can I make them...warmer?</summary>
+  <div class="details-body" id="wrongBody">
+    That's just a fun detail! No harm in doing it, right? It doesn't actually change the photos, just adds a cute filter on top! ♡
+  </div>
+</details>
+
+<div class="page-nav">
+  <a href="index.html">← home</a>
+  <a href="journal.html">journal →</a>
+</div>
