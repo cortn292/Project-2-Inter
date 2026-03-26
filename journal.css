@@ -11,9 +11,8 @@ body{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  position: relative;
+  align-items: center;  
+  padding: 20px;
 }
 
 .header {
@@ -80,3 +79,43 @@ button:hover {
   color: black;
 }
 
+.slider-container {
+  width: 60%;
+  margin: 40px auto;
+  text-align: center;
+  padding: 15px;
+}
+
+.slider-container label {
+  color: rgb(47, 255, 0);
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+input[type="range"] {
+  width: 100%;
+  margin-top: 10px;
+  -webkit-appearance: none;
+  background: transparent;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 2px;
+  background: red;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
+  background: red;
+  margin-top: -5px;
+  cursor: pointer;
+}
+
+#signalText {
+  margin-top: 10px;
+  color: rgb(47, 255, 0);
+  font-size: 12px;
+  letter-spacing: 1px;
+}
