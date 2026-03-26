@@ -1,5 +1,66 @@
 body{
+    margin: 0;
     background: black;
-    color: rgb(190, 242, 255);
+    color: rgb(255, 255, 255);
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+}
+
+.screen {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+
+.header {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  border-top: 3px solid red;
+  border-bottom: 3px solid red;
+  padding: 10px;
+}
+
+
+.message h1 {
+  margin: 20px 0;
+}
+
+.warning {
+  color: red;
+  font-weight: bold;
+}
+
+
+.screen::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(255,255,255,0.05) 0px,
+    rgba(255,255,255,0.05) 1px,
+    transparent 2px
+  );
+  pointer-events: none;
+}
+
+
+.glitch {
+  position: relative;
+  color: white;
+  animation: glitch 0.8s infinite;
+}
+
+@keyframes glitch {
+  0% { transform: translate(0); }
+  20% { transform: translate(-2px, 2px); }
+  40% { transform: translate(-2px, -2px); }
+  60% { transform: translate(2px, 2px); }
+  80% { transform: translate(2px, -2px); }
+  100% { transform: translate(0); }
 }
