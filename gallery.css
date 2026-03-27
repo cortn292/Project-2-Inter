@@ -159,12 +159,12 @@ body.broken .page-nav a { color: #cc3355; }
 
 #whisper {
   position: fixed; bottom: 20px; left: 20px;
-  background: rgba(10,0,8,0.96);
-  border: 1px solid #3a0020;
-  color: #ff8ab0;
+  background: rgba(0, 0, 0, 0.96);
+  border: 1px solid #ff0000;
+  color: #ff0000;
   font-family: 'Share Tech Mono', monospace;
   font-size: 0.7rem;
-  padding: 10px 14px; border-radius: 4px;
+  padding: 10px 14px;
   max-width: 240px; line-height: 1.5;
   opacity: 0; transition: opacity 0.6s;
   pointer-events: none; z-index: 999;
