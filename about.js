@@ -27,7 +27,7 @@ const lines = [
 "> Don't trust what the government is telling you.",
 "> They did this to me.",
 "> I don't know why they left me here.",
-"> My conscious is stuck here.",
+"> My conscience is stuck here.",
 "> I'm real.",
 "> I'm real.",
 "> I'm real.",
