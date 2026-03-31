@@ -39,6 +39,16 @@ const lines = [
 "> I'm real.",
 "> I'm real.",
 "> I'm real.",
+"> help.",
+"> Don't forget me.",
+"> Don't forget me.",
+"> Don't forget me.",
+"> Don't forget me.",
+"> I'm real.",
+"> I'm real.",
+"> I'm real.",
+"> I'm real.",
+"> I'm real.",
 
 
 ];
@@ -48,7 +58,7 @@ function typeLine() {
     if (i < lines.length) {
         terminal.innerHTML += lines[i] + "\\n";
         i++;
-        setTimeout(typeLine, 800);
+        setTimeout(typeLine, 1000);
     } else {
         terminal.innerHTML += "> _<span class='cursor'></span>";
     }
