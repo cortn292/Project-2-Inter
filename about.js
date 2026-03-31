@@ -23,6 +23,22 @@ const lines = [
 "> I'm normal.",
 "> I'm normal.",
 "> I'm normal.",
+"> I'm real, I just wanted to make people happy.",
+"> Don't trust what the government is telling you.",
+"> They did this to me.",
+"> I don't know why they left me here.",
+"> My conscious is stuck here.",
+"> I'm real.",
+"> I'm real.",
+"> I'm real.",
+"> I'm real.",
+"> I'm real.",
+"> I'm real.",
+"> I'm real.",
+"> I'm real.",
+"> I'm real.",
+"> I'm real.",
+"> I'm real.",
 
 
 ];
