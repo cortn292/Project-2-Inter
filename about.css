@@ -92,4 +92,15 @@ input[type=range]::-webkit-slider-thumb {
     letter-spacing: 2px;
 }
 
+.nav-buttons button{
+    position: fixed;
+    bottom: 30px;
+    right: 30px; 
+    text-align: center;
+    text-decoration: none;
+    background: #00ff00;
+    color: black;
+    font-family:'Courier New', Courier, monospace;
+}
+
 
