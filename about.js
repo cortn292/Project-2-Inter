@@ -76,3 +76,4 @@ function updateSlider(val) {
         text.classList.remove('show');
     }
 }
+
