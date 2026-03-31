@@ -68,16 +68,28 @@ input[type=range]::-webkit-slider-thumb {
     bottom: 200px;
     left: 50%;
     transform: translateX(-50%);
+    text-align: center;
+    text-decoration: none;
+    color: #00ff00;
 }
 
 .bottom-link img {
     width: 120px;
+    display: block;
+    margin: 0 auto;
     opacity: 0.8;
     transition: 0.3s;
 }
 
 .bottom-link img:hover {
     opacity: 1;
+}
+
+.link-text {
+    margin-top: 8px;
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+    letter-spacing: 2px;
 }
 
 
