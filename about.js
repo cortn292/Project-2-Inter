@@ -54,3 +54,15 @@ function typeLine() {
     }
 }
 typeLine();
+
+function updateSlider(val) {
+    document.getElementById('vibeVal').textContent = val + '% of belief';
+
+    let text = document.getElementById('secretText');
+
+    if (val > 60) {
+        text.classList.add('show');
+    } else {
+        text.classList.remove('show');
+    }
+}

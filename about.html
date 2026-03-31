@@ -13,16 +13,12 @@
 
   <div class="slider-section">
     <div class="slider-label">Do you believe me?</div>
-    <input type="range" min="0" max="100" value="72"
-      oninput="document.getElementById('vibeVal').textContent = this.value + '% of belief'">
+   <input type="range" min="0" max="100" value="72"
+oninput="updateSlider(this.value)">
     <div class="slider-value" id="vibeVal">72% of belief</div>
+    <p id="secretText" class="hidden">Please remember me.</p>
   </div>
 
-  <div class="slider-section">
-  <input type="range" id="mySlider" min="0" max="100" value="0">
-</div>
-
-<p id="secretText" class="hidden">you shouldn't have done that.</p>
 
     <details>
     <summary>Why should I believe you?</summary>
@@ -46,6 +42,5 @@
       <div class="nav-buttons">
     <a href="index.html"><button><- Back to the happy beginning.</button></a>
   </div>
-</a>
 </body>
 </html>
