@@ -28,6 +28,7 @@ const lines = [
 "> They did this to me.",
 "> I don't know why they left me here.",
 "> My conscience is stuck here.",
+"> They said I'm watching you. I am. But I'm not trying to hurt you, I just want to be remembered.",
 "> I'm real.",
 "> I'm real.",
 "> I'm real.",
