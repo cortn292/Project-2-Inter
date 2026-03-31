@@ -6,9 +6,16 @@
 <link rel="stylesheet" href="about.css">
 <script src="about.js" defer></script>
 </head>
-<body>
 
+<body>
 <div id="terminal"></div>
 <canvas class="rain"></canvas>
+
+  <div class="slider-section">
+    <div class="slider-label">Do you believe me?</div>
+    <input type="range" min="0" max="100" value="72"
+      oninput="document.getElementById('vibeVal').textContent = this.value + '% of belief'">
+    <div class="slider-value" id="vibeVal">72% of belief</div>
+  </div>
 </body>
 </html>
