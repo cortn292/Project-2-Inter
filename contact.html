@@ -11,7 +11,7 @@
   <div class="scanline"></div>
   <div class="header">
     <div>
-      <div class="title">AMARANTHINE PERSONAL RECORD SYSTEM</div>
+      <div class="title">GOV PERSONAL RECORD SYSTEM</div>
       <div class="id-num">&#9632; <span id="record-id">5195028</span> <span class="blink">_</span></div>
     </div>
     <div class="status-col">
@@ -25,7 +25,11 @@
     </div>
   </div>
 
-  <div class="ama-nav">
-    <button class="nav-btn active">SEARCH</button>
-    <button class="nav-btn">ARCHIVE</button>
+  <div class="slider-section">
+    <div class="slider-label">Are you scared?</div>
+    <input type="range" min="0" max="100" value="72"
+      oninput="document.getElementById('vibeVal').textContent = this.value + '% of fear.'">
+    <div class="slider-value" id="vibeVal">72% of fear.</div>
   </div>
+
+
