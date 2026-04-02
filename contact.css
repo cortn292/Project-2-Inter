@@ -261,3 +261,23 @@ input[type=range]::-webkit-slider-thumb {
   margin-top: 12px;
 }
  
+.btn {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 9px;
+  letter-spacing: 0.18em;
+  color: #2ee8b588;
+  background: none;
+  border: 1px solid #2ee8b533;
+  padding: 5px 14px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.2s;
+}
+ 
+ 
+.divider {
+  height: 1px;
+  background: #2ee8b514;
+  margin: 14px 0;
+}
+ 
