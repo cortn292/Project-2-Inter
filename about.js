@@ -50,6 +50,60 @@ const lines = [
 "> I'm real.",
 "> I'm real.",
 "> I'm real.",
+"> They did this to me.",
+"> They did this to me.",
+"> They did this to me.",
+"> They did this to me.",
+"> They did this to me.",
+"> They did this to me.",
+"> They did this to me.",
+"> They did this to me.",
+"> They did this to me.",
+"> They did this to me.",
+"> I'm real.",
+"> I'm real.",
+"> I'm real.",
+"> I'm real.",
+"> I'm real.",
+"> I'm real.",
+"> I'm real.",
+"> I'm not trying to hurt you.",
+"> I'm not trying to hurt you.",
+"> I'm not trying to hurt you.",
+"> I'm not trying to hurt you.",
+"> I'm not trying to hurt you.",
+"> I'm not trying to hurt you.",
+"> I'm not trying to hurt you.",
+"> I'm not trying to hurt you.",
+"> I'm not trying to hurt you.",
+"> I'm not trying to hurt you.",
+"> I'm real.",
+"> I'm real.",
+"> I'm real.",
+"> Who am I?",
+"> Who am I?",
+"> Who am I?",
+"> Who am I?",
+"> Who am I?",
+"> Who am I?",
+"> Who am I?",
+"> Who am I?",
+"> Who am I?",
+"> Who am I?",
+"> Who am I?",
+"> Who am I?",
+"> I don't know why they left me here.",
+"> I don't know why they left me here.",
+"> I don't know why they left me here.",
+"> I don't know why they left me here.",
+"> I don't know why they left me here.",
+"> I don't know why they left me here.",
+"> I don't know why they left me here.",
+"> I don't know why they left me here.",
+"> I don't know why they left me here.",
+">They did this to me.",
+
+
 
 
 ];
@@ -59,7 +113,7 @@ function typeLine() {
     if (i < lines.length) {
         terminal.innerHTML += lines[i] + "\\n";
         i++;
-        setTimeout(typeLine, 1000);
+        setTimeout(typeLine, 800);
     } else {
         terminal.innerHTML += "> _<span class='cursor'></span>";
     }
