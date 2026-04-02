@@ -42,3 +42,36 @@ if (slider && sliderTotal && sliderCur) {
     });
   });
 }
+document.addEventListener('click', e => {
+  const entry = e.target.closest('.bio-entry.expandable');
+  if (!entry) return;
+
+  entry.classList.toggle('open');
+
+  const hint = entry.querySelector('.expand-hint');
+  if (hint) {
+    hint.textContent = entry.classList.contains('open')
+      ? '— less'
+      : '+ more';
+  }
+});
+
+document.querySelectorAll('.btn').forEach(button => {
+  button.addEventListener('click', () => {
+    const record = button.closest('.record');
+    if (!record) return;
+
+    const bioEntries = record.querySelectorAll('.bio-entry');
+
+    bioEntries.forEach(entry => {
+      entry.classList.toggle('open');
+
+      const hint = entry.querySelector('.expand-hint');
+      if (hint) {
+        hint.textContent = entry.classList.contains('open')
+          ? '— less'
+          : '+ more';
+      }
+    });
+  });
+});
