@@ -23,4 +23,22 @@ if (slider && sliderTotal && sliderCur) {
       }
     });
 
-    
+    dots.forEach((d, i) => {
+      d.classList.toggle('active', i === index);
+    });
+
+    sliderCur.textContent = index + 1;
+    if (recordId) recordId.textContent = ids[index] || '???????';
+    slider.value = index;
+  }
+
+  slider.addEventListener('input', () => {
+    showRecord(parseInt(slider.value));
+  });
+
+  dots.forEach(dot => {
+    dot.addEventListener('click', () => {
+      showRecord(parseInt(dot.dataset.index));
+    });
+  });
+}
