@@ -333,3 +333,54 @@ input[type=range]::-webkit-slider-thumb {
   transition: color 0.2s;
 }
  
+.bio-entry.expandable:hover .expand-hint {
+  color: #2ee8b577;
+}
+ 
+.bio-entry.expandable.open .expand-hint {
+  color: #2ee8b5;
+}
+ 
+.bio-detail {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease, opacity 0.3s ease, padding 0.3s ease;
+  opacity: 0;
+  font-size: 10px;
+  color: #2ee8b588;
+  line-height: 1.8;
+  padding-top: 0;
+}
+ 
+.bio-entry.open .bio-detail {
+  max-height: 200px;
+  opacity: 1;
+  padding-top: 6px;
+}
+ 
+ 
+.locker {
+  border: 1px solid #2ee8b518;
+  padding: 12px 14px;
+  margin-top: 14px;
+  background: #040d0c;
+}
+ 
+.locker-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+ 
+.locker-title {
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  color: #2ee8b5;
+}
+ 
+.locker-date {
+  font-size: 9px;
+  color: #2ee8b544;
+  letter-spacing: 0.1em;
+}
+ 
