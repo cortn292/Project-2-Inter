@@ -281,3 +281,11 @@ input[type=range]::-webkit-slider-thumb {
   margin: 14px 0;
 }
  
+ 
+.bio {
+  flex: 1;
+  border: 1px solid #2ee8b518;
+  padding: 12px 14px;
+  background: #040d0c;
+}
+ 
