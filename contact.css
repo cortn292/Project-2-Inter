@@ -220,3 +220,44 @@ input[type=range]::-webkit-slider-thumb {
   text-align: center;
 }
  
+.fields {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+ 
+.field-row {
+  display: flex;
+  border-bottom: 1px solid #2ee8b510;
+  padding: 5px 0;
+  align-items: baseline;
+  gap: 8px;
+}
+ 
+.field-label {
+  font-size: 10px;
+  color: #2ee8b555;
+  letter-spacing: 0.1em;
+  min-width: 90px;
+  text-align: right;
+}
+ 
+.field-value {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #2ee8b5cc;
+  letter-spacing: 0.06em;
+}
+ 
+.field-value.bright {
+  color: #2ee8b5;
+  font-weight: 700;
+}
+ 
+.action-row {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+ 
