@@ -5,3 +5,22 @@ const sliderTotal = document.getElementById('slider-total');
 const recordId = document.getElementById('record-id');
 const dots = document.querySelectorAll('.dot');
 
+const ids = ['5195028', '7723401', '9914887'];
+const total = records.length;
+
+if (slider && sliderTotal && sliderCur) {
+  sliderTotal.textContent = total;
+  slider.max = total - 1;
+
+  function showRecord(index) {
+    records.forEach((r, i) => {
+      if (i === index) {
+        r.classList.remove('hidden');
+        r.classList.add('fade-in');
+        setTimeout(() => r.classList.remove('fade-in'), 350);
+      } else {
+        r.classList.add('hidden');
+      }
+    });
+
+    
