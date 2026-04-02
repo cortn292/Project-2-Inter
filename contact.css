@@ -78,3 +78,32 @@ body {
 }
  
  
+.nav {
+  border: 1px solid #2ee8b522;
+  border-bottom: none;
+  border-top: none;
+  padding: 6px 14px;
+  display: flex;
+  gap: 12px;
+  background: #040d0c;
+}
+ 
+.nav-btn {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  color: #2ee8b555;
+  background: none;
+  border: 1px solid #2ee8b522;
+  padding: 3px 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+ 
+.nav-btn.active,
+.nav-btn:hover {
+  color: #2ee8b5;
+  border-color: #2ee8b566;
+  background: #2ee8b508;
+}
+ 
