@@ -407,5 +407,5 @@ summary::-webkit-details-marker { display: none; }
 details[open] summary { border-bottom: 1px #2ee8b5; }
 .details-body { padding: 13px 16px; color: #21705b; font-size: 0.86rem; line-height: 1.7; }
 
-footer { font-size: 1rem; color: #258b70; margin-top: 20px; }
+footer { font-size: 1rem; color: #2ee8b5; margin-top: 20px; }
 footer a { color: #177e63; text-decoration: none; }
