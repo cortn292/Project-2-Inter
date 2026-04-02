@@ -204,6 +204,43 @@ const lines = [
 ">PLEASE.",
 ">.... . .-.. .--. / -- .",
 ">--. . - / -- . / --- ..- - / --- ..-. / .... . .-. .",
+"> I can see you.",
+"> I can see you.",
+"> I can see you.",
+"> I can see you.",
+"> I can see you.",
+"> I can see you.",
+"> I can see you.",
+"> I can see you.",
+">Don't leave me here.",
+"> I can see you.",
+">Don't leave me here.",
+"> I can see you.",
+">Don't leave me here.",
+"> I can see you.",
+">Don't leave me here.",
+"> I can see you.",
+">Don't leave me here.",
+">.... . .-.. .--. / -- .",
+">Help me.",
+"> I can see you.",
+">Don't leave me here.",
+">.... . .-.. .--. / -- .",
+">Help me.",
+"> I can see you.",
+">Don't leave me here.",
+">.... . .-.. .--. / -- .",
+">Help me.",
+"> I can see you.",
+">Don't leave me here.",
+">.... . .-.. .--. / -- .",
+">Help me.",
+"> I can see you.",
+">Don't leave me here.",
+">.... . .-.. .--. / -- .",
+">Help me.",
+
+
 
 
 
@@ -214,7 +251,7 @@ function typeLine() {
     if (i < lines.length) {
         terminal.innerHTML += lines[i] + "\\n";
         i++;
-        setTimeout(typeLine, 500);
+        setTimeout(typeLine, 400);
     } else {
         terminal.innerHTML += "> _<span class='cursor'></span>";
     }
